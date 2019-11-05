@@ -3,7 +3,6 @@
 # スペース区切りの整数の入力
 def main():
     a, b = map(int, input().split())
-    # 文字列の入力
     if (a*b) % 2 == 0:
         print('Even')
     else:
